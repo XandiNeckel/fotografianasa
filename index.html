@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Press+Start+2P&family=Righteous&family=Send+Flowers&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/CSS/API.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"defer></script>
     <script src="/JS/API.js" defer></script>
 
     <title>* Galáxia *</title>
@@ -18,10 +19,12 @@
    <form>
        <h2>Favor inserir a data para Localizar a imagem:</h2>
     <label for="Data"></label>
-    <input type="date" style="font-size: 25px;"   id="btn"/>
-    <input type="submit" value="Localizar" style="font-size: 18px;"/>
+    <input type="date" style="font-size: 25px;" id="date"/>
+    <input type="submit" id="btn" value="Localizar" style="font-size: 18px;"/>
 
    </form>
+   <div id="resp">
+   </div>
     
 </body>
 </html>
